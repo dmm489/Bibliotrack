@@ -1,5 +1,5 @@
 # Bibliotrack
 
-Frontend - Diana
-Backend - Dagim
-Database/Backend - Saron
++ Frontend - Diana
++ Backend - Dagim
++ Database/Backend - Saron
