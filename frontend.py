@@ -1,1 +1,0 @@
-# Diana's part of the code, which is responsible for the frontend of the application. It includes the user interface and interactions with the backend.
