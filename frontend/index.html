@@ -14,8 +14,8 @@
 
 <body>
     <div class="wrapper">
-        <form action="">
-            <h1>Login</h1>
+        <form action="" class="login-form">
+            <h1>Bibliotrack</h1>
             <div class="input-box">
                 <input type="text" placeholder="Username" required>
                 <i class="bx bx-user"></i>
@@ -33,9 +33,36 @@
             <button type="submit" class="btn">Login</button>
 
             <div class="register-link">
-                <p>Don't have an account? <a href="#">Register</a></p>
+                <p>Don't have an account? <a href="#" id="register-link">Register</a></p>
+            </div>
+
+        </form>
+                <form action="" class="register-form">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="email" placeholder="Email" required>
+                <i class="bx bx-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+                <i class="bx bx-lock"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Confirm Password" required>
+                <i class="bx bx-lock"></i>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox"> Remember me</label>
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn">Register</button>
+
+            <div class="register-link">
+                <p>Already have an account? <a href="#" id="login-link">Login</a></p>
             </div>
         </form>
     </div>
+<script src="index.js"></script>
 </body>
 </html>
