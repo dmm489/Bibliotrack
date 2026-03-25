@@ -13,7 +13,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: seagreen;
-    background: url('images/pawel-czerwinski-OVhcOk9VsPM-unsplash.jpg') no-repeat center center;
+    background: url('images/pawel-czerwinski-WEjv3BMP2ik-unsplash.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
 }
@@ -119,6 +119,15 @@ body {
     text-decoration: underline;
 }
 
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
 .register-form {
     display: none;
+}
+
+form {
+    transition: all 0.3s ease;
 }
