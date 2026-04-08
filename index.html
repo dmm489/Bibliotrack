@@ -1,68 +1,56 @@
-<! --- https://www.youtube.com/watch?v=hlwlM4a5rxg -->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bibliotrack Login</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sign In</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
 
-</head>
-
-<body>
-    <div class="wrapper">
-        <form action="" class="login-form">
-            <h1>Bibliotrack</h1>
+        <form action="login-form">
+        <div class = "container">
+            <h1> Sign In </h1>
             <div class="input-box">
-                <input type="text" placeholder="Username" required>
-                <i class="bx bx-user"></i>
+                <input type="email" name="email" placeholder="Email">
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Password" required>
-                <i class="bx bx-lock"></i>
+                <input type="password" name="password" placeholder="Password">
             </div>
-
-            <div class="remember-forgot">
-                <label><input type="checkbox"> Remember me</label>
-                <a href="#">Forgot password?</a>
+            <div class="checkbox">
+                <input type="checkbox"> Keep me signed in
             </div>
-
-            <button type="submit" class="btn">Login</button>
-
-            <div class="register-link">
-                <p>Don't have an account? <a href="#" id="register-link">Register</a></p>
+            <div class="button">
+                <button type="button">Sign In</button>
             </div>
-
+            <div class="container-text">
+                Don't have an account? <a href="" class="link">Register</a>
+            </div>
+        </div>
         </form>
-                <form action="" class="register-form">
-            <h1>Register</h1>
-            <div class="input-box">
-                <input type="email" placeholder="Email" required>
-                <i class="bx bx-envelope"></i>
-            </div>
-            <div class="input-box">
-                <input type="password" placeholder="Password" required>
-                <i class="bx bx-lock"></i>
-            </div>
-            <div class="input-box">
-                <input type="password" placeholder="Confirm Password" required>
-                <i class="bx bx-lock"></i>
-            </div>
-            <div class="remember-forgot">
-                <label><input type="checkbox"> Remember me</label>
-                <a href="#">Forgot password?</a>
-            </div>
 
-            <button type="submit" class="btn">Register</button>
-
-            <div class="register-link">
-                <p>Already have an account? <a href="#" id="login-link">Login</a></p>
+        <form action="register-form">
+        <div class = "container">
+            <h1> Register </h1>
+            <div class="input-box">
+                <input type="email" name="email" placeholder="Email">
             </div>
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <div class="input-box">
+                <input type="password" name="confirm-password" placeholder="Confirm Password">
+            </div>
+            <div>
+                <button type="button">Register</button>
+            </div>
+            <div class="container-text">
+                Already have an account? <a href="" class="link">Sign In</a>
+            </div>
+        </div>
         </form>
-    </div>
-<script src="index.js"></script>
-</body>
+
+
+    </body>
 </html>

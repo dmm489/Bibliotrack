@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    color: purple;
+    background-color: plum;
+    border: 2px solid purple;
+    border-radius: 5%;
+    padding: 20px 25px;
+    text-align: center;
+    gap: 5px;
+}
+
+.container h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.link {
+    font-weight: bolder;
+    color: purple;
+}
+
+.register-form {
+    display: none;
+}
