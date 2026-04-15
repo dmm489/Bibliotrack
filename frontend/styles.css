@@ -61,10 +61,20 @@ body {
 
 .input-box i {
     position: absolute;
-    right: 20px;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 20px
+    font-size: 20px;
+}
+
+.input-box .bx-lock,
+.input-box .bx-user
+.input-box .bx-envelope {
+    right: 20px;
+}
+
+.toggle-password {
+    right: 45px;
+    cursor: pointer;
 }
 
 .wrapper .remember-forgot {
@@ -130,4 +140,12 @@ body {
 
 form {
     transition: all 0.3s ease;
+}
+
+#password-error {
+    color: red;
+    display: none;
+    font-size: 14px;
+    margin-top: -15px;   /* pulls it closer to input */
+    margin-bottom: 20px; /* pushes checkbox down */
 }

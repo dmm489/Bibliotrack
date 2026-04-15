@@ -1,4 +1,6 @@
-<! --- https://www.youtube.com/watch?v=hlwlM4a5rxg -->
+<!-- https://www.youtube.com/watch?v=hlwlM4a5rxg -->
+<!-- WORKING ON SHOW HIDE PASSWORD AND CONFIRM PASSWORD OPTIONS -->
+<!-- make it so that when you go from login to register page the register form clears whatever was in the fields -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,6 +25,7 @@
             <div class="input-box">
                 <input type="password" placeholder="Password" required>
                 <i class="bx bx-lock"></i>
+                <i class="bx bx-show toggle-password" data-target="toggle-password"></i>
             </div>
 
             <div class="remember-forgot">
@@ -44,13 +47,18 @@
                 <i class="bx bx-envelope"></i>
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Password" required>
+                <input type="password" id="register-password" placeholder="Password" required>
                 <i class="bx bx-lock"></i>
+                <i class="bx bx-show toggle-password" data-target="register-password"></i>
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Confirm Password" required>
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required>
                 <i class="bx bx-lock"></i>
+                <i class="bx bx-show toggle-password" data-target="confirm-password"></i>
             </div>
+            <p id="password-error">
+                Passwords do not match!
+            </p>
             <div class="remember-forgot">
                 <label><input type="checkbox"> Remember me</label>
                 <a href="#">Forgot password?</a>
