@@ -1,0 +1,8 @@
+General Overview
+https://www.youtube.com/watch?v=_GTMOmRrqkU
+
+HTML Documentation
+https://www.w3schools.com/html/default.asp
+
+CSS Documentation
+https://www.w3schools.com/css/default.asp
