@@ -18,5 +18,4 @@ The following are the tables that are going to be added to the database:
 
 ## Frontend:
 Design:
-![alt text](Bibliotrack-3.jpg) 
-![alt text](Bibliotrack-4.jpg)
+!(/design/signin.jpg)
